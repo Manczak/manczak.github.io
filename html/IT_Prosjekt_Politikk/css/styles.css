@@ -1,0 +1,88 @@
+body {
+  font-family: Helvetica, calibri, open-sans;
+}
+
+.flexbox-container {
+  width: 50%;
+  height: fit-content;
+  background-color: #bbdfff;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.flexbox-container-pol {
+  width: 50%;
+  height: fit-content;
+  background-color: #014d87;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.snapfilter {
+  width: 200px;
+}
+
+.flexbox-collumn {
+  width: 100%;
+  background-color: #bbdfff;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.flexbox-container h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.flexbox-space {
+  display: flex;
+  width: 100%;
+  height: 3em;
+}
+
+.social-media {
+  height: 100px;
+  width: 100px;
+}
+
+.tilbake {
+  right: 3%;
+  font-size: 25px;
+  padding: 1em;
+  height: 10%;
+  position: fixed;
+  width: 100px;
+}
+
+.hoyre-logo {
+  width: auto;
+  height: 10%;
+  position: fixed;
+}
+
+.hoyre-logoo {
+  height: 100px;
+  width: max-content;
+}
+
+.politiker {
+  padding: 3em;
+  height: 400px;
+  width: auto;
+}
+
+.largep {
+  font-size: 1.5em;
+}
+
+.bilder {
+  width: auto;
+  height: auto;
+}

@@ -1,0 +1,82 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.innpakning {
+  width: 70%; /*Bredden på flexboksen*/
+  background-color: #404040; /*en mørk gråfarge*/
+  margin: auto; /*like høyre og venstremarger*/
+  display: flex; /*lager en flexbox*/
+  flex-direction: column; /*plasserer boksene i en kolonne*/
+}
+
+.topptekst {
+  height: 200px;
+  background-color: #909090;
+  padding: 5px; /* indre marg*/
+  margin: 5px; /* ytre marg*/
+}
+.meny {
+  background-color: #597881;
+  padding: 5px;
+  margin: 5px;
+}
+
+.innhold {
+  background-color: #909090;
+  padding: 5px;
+  margin: 5px;
+}
+
+.bunntekst {
+  background-color: #909090;
+  padding: 5px;
+  margin: 5px;
+}
+
+.meny_i_meny {
+  background-color: #909090;
+  padding: 20px;
+  margin: 5px;
+}
+ul {
+  list-style-type: none; /*fjerner kulepunkter*/
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  display: inline; /*gjør listepunktene til inline*/
+}
+ul a {
+  padding: 10px 30px; /*marginen på boksene til teksten*/
+  color: #333333; /*fargen til teksten*/
+  font-weight: bold;
+  text-decoration: none; /*fjerner understrek*/
+  background-color: #97afdd; /*farge til boks*/
+}
+ul a:hover {
+  background-color: #006eff; /*farge når man har musen over*/
+}
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../media/lodrett.JPG");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
