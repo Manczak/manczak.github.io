@@ -1,0 +1,52 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.img1 {
+  max-width: 100%;
+}
+
+.a {
+  display: grid;
+  grid-template-columns: 200px 180px 250px;
+  grid-template-rows: 150px 75px;
+  margin: 50px;
+}
+
+.b {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-auto-rows: minmax(30px, auto);
+  margin: 50px;
+}
+
+.c {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: minmax(30px, auto);
+  margin: 50px;
+}
+
+.artikkel1 {
+  background-color: cyan;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.artikkel2 {
+  background-color: greenyellow;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.artikkel3 {
+  background-color: lightsalmon;
+  border: 1px solid black;
+  padding: 10px;
+}
